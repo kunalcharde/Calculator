@@ -14,7 +14,7 @@ body {
   place-content: center;
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
   color: white;
   text-align: right;
   padding: 0.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   overflow: hidden;
 }
 
