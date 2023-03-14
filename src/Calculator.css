@@ -86,15 +86,22 @@ body {
   padding-left: 2rem;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
   .container{
-    height: 70vh;
+    height: 75vh;
     width: 45vh;
     padding: 2rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
+  }
+  .wrapper{
+    gap:30px
   }
   .screen{
-    font-size: 3rem;
+    font-size: 8rem;
+  }
+  .zero{
+    border-radius: 100px;
+    padding-left: 5rem;
   }
 
 }
