@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: none;
 }
 
 body {
@@ -11,7 +14,7 @@ body {
   place-content: center;
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .container {
@@ -20,12 +23,14 @@ body {
   background-color: black;
   border-radius: 1rem;
   padding: 1rem;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 .wrapper {
   display: grid;
-  height: 90%;
+  height: 100%;
   width: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -81,12 +86,15 @@ body {
   padding-left: 2rem;
 }
 
+@media only screen and (max-width: 767px) {
+  .container{
+    height: 70vh;
+    width: 45vh;
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+  .screen{
+    font-size: 3rem;
+  }
 
-@media only screen and (max-width: 600px) {
-    body{
-        background: #000;
-    }
-    .container{
-        box-shadow: none;
-    }
 }
