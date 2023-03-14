@@ -48,7 +48,7 @@ const Calculator: React.FC = () => {
     }
   };
 
-  // this is the Equal Function for Calculation
+  // Equal Function for Calculation
 
   const equals = (e: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
     if (e?.currentTarget.innerText === "=") {
