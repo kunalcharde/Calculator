@@ -103,5 +103,22 @@ body {
     border-radius: 100px;
     padding-left: 5rem;
   }
-
+}
+@media only screen and (max-width: 760px) {
+  .container{
+    height: 75vh;
+    width: 45vh;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .wrapper{
+    gap:15px
+  }
+  .screen{
+    font-size: 3.5rem;
+  }
+  .zero{
+    border-radius: 100px;
+    padding-left: 1rem;
+  }
 }
