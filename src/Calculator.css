@@ -3,9 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  -webkit-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-app-region: none;
 }
 
 body {
@@ -23,8 +20,6 @@ body {
   background-color: black;
   border-radius: 1rem;
   padding: 1rem;
-  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
@@ -69,12 +64,12 @@ body {
 }
 
 .orange {
-  background-color: orange;
+  background-color: rgb(255, 147, 7);
 }
 
 .orange:hover {
   background-color: white;
-  color: orange;
+  color: rgb(255, 147, 7);
 }
 
 .zero {
